@@ -1,0 +1,23 @@
+{
+    "name": "trillo",
+    "version": "1.0.0",
+    "source": "./index.html",
+    "browserslist": [
+        "defaults",
+        "not Explorer <= 11",
+        "not dead"
+    ],
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build"
+    },
+    "author": "Ali Farajzade",
+    "license": "ISC",
+    "devDependencies": {
+        "@parcel/transformer-sass": "2.4.1",
+        "autoprefixer": "^10.4.4",
+        "parcel": "^2.4.1",
+        "postcss": "^8.4",
+        "postcss-preset-env": "^7.4.3"
+    }
+}
